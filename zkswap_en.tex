@@ -20,7 +20,7 @@ urlcolor = black
 \pagestyle{plain}
 
 %
-\title{ZKSwap: Layer-2 Token Swap Protocol based on ZK-Rollup}
+\title{ZKSwap: a Layer-2 Token Swap Protocol based on ZK-Rollup}
 
 \author{L2 Lab}
 
@@ -35,16 +35,15 @@ urlcolor = black
 %
 \section{Introduction}
 
-Since 2019, the blockchain industry has undergone earth-shaking changes, and distributed financial -- DeFi -- is rapidly emerging. Various types of assets locked in different DeFi protocols has exceeded 10 billion U.S. dollars. With the continuous development of various on-chain assets and more and more off-chain assets going on-chain, we believe that the scale of assets locked in the DeFi protocol will soon exceed the market value of 100 billion U.S. dollars. These on-chain assets require a fast, frictionless, trust-free real-time exchange, which has led to the rise of new exchange protocols such as Uniswap\cite{uniswapofficial}.
+Since 2019, the blockchain industry has undergone breathtaking changes. Decentralized finance -- DeFi -- continues to grow at an exponential rate. The Total Value Locked in different DeFi protocols has exceeded 10 billion U.S. dollars. With the continuous development of numerous on-chain assets and off-chain assets going on-chain, we believe that the Total Value Locked in DeFi protocols will soon exceed 100 billion U.S. dollars. These on-chain assets require fast, frictionless, trust-free, and real-time exchange services, which has led to the rise of new decentralized exchange(DEX) protocols such as Uniswap\cite{uniswapofficial}.
 
-Although the new DEX represented by Uniswap has achieved significant development, it still has obvious shortcomings. First: The gas fee of dozens of dollars at every turn hinders the entry of new users; Second: Every transaction and every operation needs to wait for at least one block to confirm, and the real-time performance is poor; Third: Subject to the Ethereum chain Due to the limitation of TPS, Uniswap has a clear ceiling on the number of transactions and transaction capacity that can be traded per second. The above three points are the pain points currently facing all DEX.
+Although the new DEX model spearheaded by Uniswap has achieved significant development, it still has obvious drawbacks. First, the high gas fee of dozens of dollars per transaction hinders new users to entry; second, every transaction and every execution needs to wait for at least one block to confirm, which gives an unsatisfactory experience; and third, subject to the limiting TPS of Ethereum, Uniswap has a clear bottleneck in transaction numbers and transaction capacity per second. Those drawbacks are not unique on Uniswap. They are common issues faced by all DEXes.
 
-ZK-Rollup\cite{zkrollups} is a new type of Layer-2 expansion solution. Compared with other Layer-2 expansion solutions such as Plasma, ZK-Rollup has considerable advantages in terms of safety, economy, TPS, and usability. It is especially suitable for Build a Layer-2 decentralized exchange.
+ZK-Rollup\cite{zkrollups} is a new type of Layer-2 scalability solution. Compared with other Layer-2 scalability solutions such as Plasma, ZK-Rollup has considerable advantages in terms of security, cost, TPS, and usability. It is especially suitable for building a Layer-2 decentralized exchange.
 
-ZKSwap (ZK-Rollups based Swap) is a brand-new exchange protocol based on ZK-Rollups technology. Through Zk-Rollups technology, all ERC20 tokens are transferred to Layer2, and the consistent state of Layer1 and Layer2 is guaranteed based on continuously generated zero-knowledge proofs. This solution allows all exchanges to occur on Layer 2, achieving real-time swap with zero gas fees (no longer having to wait for a block confirmation time), unlimited scalability, getting rid of the Ethereum's TPS and block confirmation time restrictions. ZKSwap allows DEX to have the smooth experience of CEX (centralized exchange) while keeping the security of their funds simultaneously. We believe that ZKSwap is the future trading form, which will surely bring significant changes to all existing DEX and CEX.
+ZKSwap (a ZK-Rollups based Swap protocol) is a brand-new exchange protocol based on ZK-Rollups technology. Through Zk-Rollups technology, all ERC20 tokens are transferred to Layer2, and the consistent state of Layer1 and Layer2 is guaranteed based on continuously generated zero-knowledge proofs. This solution allows all exchanges to execute on Layer 2, achieving real-time swap with zero gas fees, unlimited scalability, removing the constraint from the Ethereum's TPS, and block confirmation time. The user no longer has to wait for the one-block confirmation time for each transaction. ZKSwap enables a DEX to provide the smooth user experience of a centralized exchange(CEX) while allowing the users to have full custody over their funds. We believe that ZKSwap is the future form of trading. It will trigger a significant evolution of all existing DEX and CEX.
 
-At present, the ZKSwap team has finished most of the development work. We will release the exchange agreement for ZKSwap in early October. In the future, we will promote the DEX exchange standard on Layer-2, so that all existing DEXs can seamlessly access and use ZKSwap exchange protocol.
-
+At present, the ZKSwap team has finished most of the development work. We will release the ZKSwap exchange protocol in early October. In the future, we will promote the DEX exchange standard on Layer-2, so that all existing DEXes can seamlessly access and use the ZKSwap exchange protocol.
 
 
 \section{Technical Overview
